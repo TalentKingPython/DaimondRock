@@ -10,7 +10,8 @@ exports.commodity_script = async () => {
         const browser = await puppeteer.launch({
             // headless: false,
             ignoreHTTPSErrors: false,
-            timeout: 10000
+            timeout: 10000,
+            args: ['--no-sandbox'],
         });
         // Launch the browser and open a new blank page
         const page = (await browser.pages())[0];
