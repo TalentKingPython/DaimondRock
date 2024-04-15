@@ -1,0 +1,22 @@
+{
+  "name": "coin_script",
+  "version": "1.0.0",
+  "description": "IDoneThis Web Application Backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node js",
+    "express"
+  ],
+  "author": "Lorraine",
+  "license": "ISC",
+  "dependencies": {
+    "csv": "^6.3.5",
+    "express": "^4.18.2",
+    "node-cron": "^3.0.2",
+    "puppeteer": "^22.6.4"
+  }
+}
